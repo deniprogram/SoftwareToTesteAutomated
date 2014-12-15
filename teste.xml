@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<teste>
+
+ 	 
+	<url>http://sebrae.homolog.xys.com.br/sebrae/login</url>
+ 	
+	<element>
+		<findById>login_ds_email</findById>
+		<sendKey>suporte</sendKey>
+	</element>
+
+	<element>
+		<findById>login_ds_password</findById>
+		<sendKey>abcd1234</sendKey>
+	</element>
+
+	<element>
+		<findById>login_entrar</findById>
+		<click>true</click>
+	</element>
+
+	<element>
+		<isXpathElement>a</isXpathElement>
+		<isXpathAtribute>href</isXpathAtribute>
+		<isXpathValue>#/news</isXpathValue>
+		<click>true</click>
+	</element>
+
+	<element>
+		<isXpathElement>a</isXpathElement>
+		<isXpathAtribute>href</isXpathAtribute>
+		<isXpathValue>#/news/admin</isXpathValue>
+		<click>true</click>
+	</element>
+
+	<element>
+		<isXpathElement>a</isXpathElement>
+		<isXpathAtribute>href</isXpathAtribute>
+		<isXpathValue>#/news/create</isXpathValue>
+		<click>true</click>
+	</element>
+
+	 
+	
+
+</teste>
